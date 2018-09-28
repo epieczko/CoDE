@@ -10,3 +10,5 @@ scoop install git
 scoop bucket add prolifio https://github.com/epieczko/CoDE-bucket.git
 
 scoop install aria2
+
+scoop install CoDE-all
