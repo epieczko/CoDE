@@ -6,6 +6,7 @@ Set-ExecutionPolicy RemoteSigned -Scope Process -Confirm:$false
 
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
+scoop install git
 scoop bucket add prolifio https://github.com/epieczko/CoDE-bucket.git
 
 scoop install aria2
