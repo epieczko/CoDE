@@ -9,6 +9,15 @@ iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 scoop install git
 scoop bucket add prolifio https://github.com/epieczko/CoDE-bucket.git
 
+scoop bucket add extras
+scoop bucket add versions
+scoop bucket add nightlies
+scoop bucket add nirsoft
+scoop bucket add php
+scoop bucket add nerd-fonts
+scoop bucket add nonportable
+scoop bucket add java
+
 scoop install aria2
 
 scoop install CoDE-all
