@@ -18,6 +18,7 @@ scoop bucket add php
 scoop bucket add nerd-fonts
 scoop bucket add nonportable
 scoop bucket add java
+scoop bucket add jetbrains
 
 scoop install aria2
 
