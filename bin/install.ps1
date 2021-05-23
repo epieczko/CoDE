@@ -7,6 +7,7 @@ Set-ExecutionPolicy RemoteSigned -Scope Process -Confirm:$false
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
 scoop install git
+git config --global credential.helper manager
 scoop bucket add prolifio https://github.com/epieczko/CoDE-bucket.git
 
 scoop bucket add extras
